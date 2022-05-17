@@ -1,0 +1,807 @@
+
+html,body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.offer-banner{
+    color: #f7f5e6;
+    height: 40px;
+    background-color: #a67744;
+    opacity: 1;
+    padding: 0.5rem;
+    text-align: center;
+}
+.header-wrapper{
+    top: 84px;
+    left: 86px;
+    height: 84px;
+    opacity: 1;
+    background-color: #dfe5e5;
+}
+
+.nav{
+    margin-left: 86px;
+    margin-right: 84px;
+    font-size: 12px;
+    width: 1166px;
+    height: 84px;
+}
+.nav-items{
+    display: flex;
+    padding: 1rem;
+    color: #293d45;
+    flex-flow: column;
+}
+.navbar-left{
+    font-size: 12px;
+    word-spacing: 20px;
+    text-align: left;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.nav-heading{
+text-align: center;
+font-size: 22px;
+letter-spacing: 1px;
+font-weight: bold;
+}
+
+.navbar-right{
+    font-size: 12px;
+    word-spacing: 20px;
+    text-align: right;
+    margin-top: -40px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.row-sub-navbar{
+    text-align: center;
+    word-spacing: 75px;
+    margin-top: 40px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+/* end of css header */
+/* css for banner */
+.banner-image{
+  background-image: url("images/banner.png");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.banner-text-heading{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.small-btn{
+    top: 220px;
+    left: 143px;
+    width: 50px;
+    height: 22px;
+    color: #354e57;
+    letter-spacing: 0px;
+    opacity: 1;
+    position: absolute;
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    background-color: #f7f7f7;
+}
+
+.banner-text-heading{
+    top:270px;
+    left: 139px;
+    width: 544px;
+    height: 116px;
+    color:#354e57;
+    text-align: left;
+    letter-spacing: 0px;
+    opacity: 1;
+    position:absolute;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.banner-text{
+    top: 382px;
+    left: 139px;
+    width: 441px;
+    height: 68px;
+    letter-spacing: 0px;
+    color: #354E57;
+    opacity: 1;
+    position: absolute;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.uncolored-btn{
+    top: 500px;
+    left: 139px;
+    width: 173px;
+    height: 35px;
+    border: 1px solid var(--oxford-blue-354e57);
+    border: 1px solid #354E57;
+    opacity: 1;
+    position: absolute;
+    background-color: #dfe5e5;
+    font-weight: bold;
+}
+/* end of css banner */
+
+/* css for secondary banner */
+.secondary-banner{
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 825px;
+    /* UI Properties */
+    background-color: #eef3f4;
+    opacity: 1;
+}
+.secondary-banner-heading{
+    top: 802px;
+    left: -28px;
+    height: 141px;
+    border: 1px solid #547665;
+    opacity: 1;
+    text-align: center;
+    padding: 43px 0;
+}
+.sec-ban-heading{
+    top: 845px;
+    left: 499px;
+    height: 34px;
+    text-align: center;
+    color: #354E57;
+    opacity: 1;
+    font-size: 22px;
+
+}
+.sublines-sec-banner{
+    top: 885px;
+    left: 487px;
+    height: 19px;
+    color: #354E57;
+    opacity: 1;
+}
+.sublines-secbanner{
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal;
+}
+.grid-part-heading{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 84px 139px 0px 139px;
+    color: #2e2e22;
+}
+.secondary-banner-grid-gallery{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+}
+.first-grid-image-section{
+    top: 1068px;
+    left: 139px;
+    width: 251px;
+    height: 462px;
+    opacity: 1;
+    margin: 29px 0px 0px 139px;
+}
+.product-image1{
+    background-image: url("images/psoriasis_treatment.png");
+    background-color: #ffffff;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.product-image2{
+    background-image: url("images/suburn_balm.png");
+    background-color: #ffffff;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.product-image3{
+    background-image: url("images/psoriasi_Cream.png");
+    background-color: #ffffff;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.product-image4{
+    background-image: url("images/vitiglio_treatment.png");
+    background-color: #ffffff;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.product-details{
+    height: 116px;
+    color: #2e2e22; 
+}
+.product-name-prize{
+    font-weight: bold;
+    font-size: 12px;
+    padding: 0.5rem;
+}
+.product-description{
+    font-size: 11px; 
+    font-weight: normal; 
+    margin-left: 8px;
+}
+
+
+.cart-btn-btn{
+    margin-top: 9px;
+    width: 251px;
+    height: 35px;
+    border: 1px solid #354E57;
+    background-color: #EEF3F4
+}
+.cart-btn-btn :hover{
+    background-color: #ffffff;
+}
+
+.middle-grid-image-section{
+    width: 251px;
+    height: 462px;
+    opacity: 1;
+    margin: 29px 0px 0px 28px;
+}
+.last-grid-image-section{
+    width: 251px;
+    height: 462px;
+    opacity: 1;
+    margin: 0px 29px 0px 139pxpx;
+    margin: 29px 139px 0px 28px;
+}
+/* end of css secondary banner */
+/* product banner css */
+.product-banner-grid{
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+}
+.product-banner-image{
+        background-image: url("images/product-banner-image.png");
+        background-color: #cccccc;
+        height: 600px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      
+}
+.product-banner-text-block{
+    background: #547665;
+    opacity: 1;
+}
+.product-banner-text-heading{
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+    font-size: 34px;
+    padding: 9rem;
+    font-weight: 300;
+}
+.product-banner-text{
+    letter-spacing: 0px;
+    color: #eef2f4;
+    opacity: 1;
+    line-height: 1.6;
+    margin: -96px 0px 0px 144px;
+    font-weight: 100;
+    font-size: 16px;
+}
+.product-shop-btn{
+    position:absolute;
+    background-color: #547665;
+    left: 145px;
+    width: 173px;
+    height: 35px;
+    border: 1px solid #ffffff;
+    opacity: 1;
+    color: #f7f5f6;
+    margin-top: 50px;
+    font-weight: bold;
+    
+}
+/* end of css feature banner */
+/*  css for newsletter */
+.newsletter{
+    height: 1320px;
+    background-color: #eef3f4;
+    opacity: 1;
+}
+.secondary-banner-heading-newsletter{
+    opacity: 1;
+    text-align: center;
+    padding: 43px 0;
+}
+.newsletter-grid-part-heading{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0px 139px 0px 139px;
+    color: #2e2e22;
+}
+/* end of css newsletter */
+.sub-banner{
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+}
+.sub-banner-img{
+    background-image: url("images/sub-banner.png");
+    background-color: #cccccc;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.newsletter-product-banner-text-block{
+    height: 600px;
+    background-color: #c6b9b6;
+    opacity: 1;
+}
+.newsletter-banner-text{
+    letter-spacing: 0px;
+    color: #2e2e22;
+    opacity: 1;
+    line-height: 1.6;
+    margin: -90px 0px 0px 145px;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.newsletter-shop-btn{
+    width: 173px;
+    height: 35px;
+    opacity: 1;
+    color: #2e2e22;
+    margin-top: 50px;
+    margin-left: 150px;
+    border: 1px solid #956A53;
+    background-color: #c6b9b6;
+    font-weight: bold;
+}
+.newsletter-image1{
+    background-image: url("images/psoriasis_treatment.png");
+    background-color: #ffffff;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.newsletter-image2{
+    background-image: url("images/ezcema.png");
+    background-color: #ffffff;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.newsletter-image3{
+    background-image: url("images/suburn-ointment.png");
+    background-color: #ffffff;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.newsletter-image4{
+    background-image: url("images/vitiligio_Balm.png");
+    background-color: #ffffff;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.newsletter-image5{
+    background-image: url("images/vitiligio-solution.png");
+    background-color: #ffffff;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.newsletter-image6{
+    
+    background-image: url("images/acne_Cream1.png");
+    background-color: #ffffff;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.newsletter-image7{
+    
+    background-image: url("images/acne_Cream2.png");
+    background-color: #ffffff;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.newsletter-image8{
+    
+    background-image: url("images/ezema_dropper-oil.png");
+    background-color: #ffffff;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+/* end of css newsletter */
+/* css for product teaser */
+.product-teaser{
+    background-color: #f7f7f7;
+    height: 940px;
+}
+.product-teaser-grid-items-row1{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-gap: 1rem;
+    margin: 0px 200px 0px 200px; 
+    background-color: #f7f7f7;
+}
+.product-teaser-grid-items-row2{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-gap: 1rem;
+    margin: 84px 200px 0px 200px; 
+    background-color: #f7f7f7;
+}
+.product-teaser-banner-heading{
+    opacity: 1;
+    text-align: center;
+    padding: 43px 0;
+    
+}
+.products-row{
+    height: 271px;
+}
+.pt-image1{
+    background-image: url("images/cacoa1.png");
+    background-color: #cccccc;
+    height: 271px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.pt-image2{
+    background-image: url("images/honey.png");
+    background-color: #cccccc;
+    height: 271px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.pt-image3{
+    background-image: url("images/mint.png");
+    background-color: #cccccc;
+    height: 271px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.pt-image4{
+    background-image: url("images/coconut-root.png");
+    background-color: #cccccc;
+    height: 271px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.pt-image5{
+    background-image: url("images/flaur.png");
+    background-color: #cccccc;
+    height: 271px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.pt-image6{
+    background-image: url("images/cacoa2.png");
+    background-color: #cccccc;
+    height: 271px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.image-name{
+    margin-top: 10px;
+    text-align: center;
+}
+.image-heading{
+    font-size: 14px;
+    font-weight: bold;
+    color:  #354e57;
+}
+.description{
+    font-size: 10px;
+    font-weight: 100;
+    margin-top: 5px;
+    color:  #2e2e22;
+}
+
+/* end of css product teaser */
+/* css for teaser */
+.teaser{
+   
+    border: 0.2px solid #eef2f4;
+    height: 234px;
+    width: 100%;
+    background-color: #eef2f4;
+    opacity: 1;
+}
+.teaser-grid{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-gap: 20px;
+    height: 111px;
+    width: 776px;
+    margin: 56.5px 295px 56.5px 295px;
+}
+.teaser-name{
+    
+    font-size: 14px;
+    color: #354e57;
+}
+.links{
+    font-size: 10px;
+    color: #354e57;
+    
+}
+.icon-dim{
+    font-size: 36px;
+    margin-bottom: 16px;
+    color: #C6B9B6;
+   
+}
+.teaser-item{
+    text-align: center;   
+}
+
+/* end of css teaser */
+
+.join-family-grid{
+    display: grid;
+    grid-template-columns: 1.5fr 2fr 3fr;
+    grid-gap: 10px;
+    height: 125px;
+    margin: 22px  137px 22px 137px;
+    background-color: #ffffff;
+    padding: 1rem;
+   
+}
+/* .block{
+
+} */
+.text-block{
+    font-size: 30px;
+    color:#354e57;
+    font-weight: bold;
+    border-right: 1px solid #d7ccdd;
+}
+.desc-block{
+    color:#354e57;
+    line-height: 1.6;
+    font-size: 12px;
+    font-weight: 100;
+    margin: 20px 0px 20px 0px;
+}
+.subsc-block{
+    opacity: 1;
+    margin: 22px 0px 22px 0px;
+   
+}
+input.text-block-subsc {
+    width: 270px;
+    height: 38px;
+    border: none;
+    color: #293d45;
+    font-weight: 100;
+    opacity: 1;
+}
+.btn-class{
+    width: 120px;
+    height: 32px;
+    border-left: 0.5px solid #a67744;
+    background-color: #a67744;
+    color: #f7f7f7;
+    margin-left: -4px;
+    border: none;
+}
+.subsc-block {
+    opacity: 1;
+    margin: 22px 0px 22px 0px;
+    
+}
+
+input.text-block-subsc {
+    width: 240px;
+    height: 32px;
+    border: 0.5px solid #a67744;
+    color: #293d45;
+    font-weight: 100;
+    opacity: 1;
+}
+
+.join-family{
+    height: 148px;
+}
+/* end of css product teaser */
+
+/* css for footer */
+.main-footer{
+    width: 100%;
+    height: 570px;
+    background-color: #354E57 ;
+    opacity: 1;
+}
+.footer-content{
+   height: 300px;
+   display: grid;
+   grid-template-columns: 3fr 1fr 1fr 1fr;
+   padding: 6rem;
+   
+}
+
+.footer-first-column h2{
+    font-size: 30px;
+    font-weight: 500;
+    color: #ffffff;
+    line-height: 3rem;
+}
+
+.footer-first-column{
+    line-height: 3rem; 
+}
+.desc-text-footer{
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 100;
+}
+.footer-section-button{
+  
+    margin-top: 20px;
+}
+
+input.footer-input-box{
+    width: 240px;
+    height: 32px;
+    border: none;
+    color: #ffffff;
+    font-weight: 100;
+    opacity: 1;
+    background-color: transparent;
+    border: 0.5px solid #ffffff;
+}
+
+.btn-btn-class{
+    width: 120px;
+    height: 32px;
+    border: 0.5px solid #ffffff;
+    color: #ffffff;
+    font-weight: 100;
+    opacity: 1;
+    background-color: #a67744;
+    border-left-style:none;
+    margin-left: -4px;
+    font-size: 12px;
+}
+::placeholder {
+    color: #ffffff;
+    font-size: 12px;
+    opacity: 1;
+    padding: 0.5rem;
+  }
+
+  .footer-columns h6{
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    line-height: 3;
+    opacity: 1;
+}
+
+.sub-options li{
+    font-size: 11px;
+    font-weight: 100;
+    color: #ffffff;
+    line-height: 2;
+    list-style-type: none;
+    opacity: 1;
+}
+
+.sub-footer-data{
+    border-top: 0.5px solid #ffffff;
+    font-weight: 100;;
+}
+.sub-footer-header h2{
+    font-size: 12px;
+    font-weight: 100;
+    color: #ffffff;
+    opacity: 1;
+    padding: 1rem;
+}
+.sub-footer-links{
+    display: flex;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 100;
+    opacity: 1;
+}
+.sub-footer-links li{
+    list-style-type: none;
+}
+.sub-footer-links a {
+    color: #ffffff;
+    opacity: 1;
+    margin-left: 18px;
+}
+.sub-footer-social-icons{
+    display: flex;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 100;
+    opacity: 1;
+    text-align: right;
+}
+.social-icons-link {
+    margin-left: 20px;
+    font-size: 20px;
+}
+.link1{
+    margin-left: 60px;
+}
+  
+
+/* end of css footer */
+.imgage-tiles{
+    background-color: #f7f7f7;
+}
+
+
+  
+
