@@ -133,7 +133,7 @@ font-weight: bold;
     left: 139px;
     width: 173px;
     height: 35px;
-    border: 1px solid var(--oxford-blue-354e57);
+    /* border: 1px solid var(--oxford-blue-354e57); */
     border: 1px solid #354E57;
     opacity: 1;
     position: absolute;
